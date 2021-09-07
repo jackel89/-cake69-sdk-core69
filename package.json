@@ -1,0 +1,36 @@
+{
+  "name": "@cake69/sdk-core69",
+  "license": "MIT",
+  "version": "3.0.1",
+  "description": " ",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "repository": "https://github.com/jackel89/-cake69-sdk-core69.git",
+  "keywords": [
+  ],
+  "module": "dist/sdk-core.esm.js",
+  "dependencies": {
+    "@ethersproject/address": "^5.0.2",
+    "big.js": "^5.2.2",
+    "decimal.js-light": "^2.5.0",
+    "jsbi": "^3.1.4",
+    "tiny-invariant": "^1.1.0",
+    "toformat": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/big.js": "^4.0.5",
+    "@types/jest": "^24.0.25",
+    "tsdx": "^0.14.1"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "prettier": {
+    "printWidth": 120,
+    "semi": false,
+    "singleQuote": true
+  }
+}
